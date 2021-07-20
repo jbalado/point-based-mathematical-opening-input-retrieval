@@ -1,27 +1,27 @@
-# Point-based Mathematical Morphology
+# Point-based Mathematical Opening with Retrieval Input Data
 
-Created by Jesús Balado Frías, Peter van Oosterom, Lucía Díaz-Vilariño and Martijn Meijers.
+Created by Jesús Balado Frías, Peter van Oosterom, Lucía Díaz-Vilariño and Henrique Lorenzo.
 
 ## Introduction
 
-Mathematical morphology is a typical image processing technique. Its uses are diverse: shape detection, segmentation, measurement, filtering, hole filling, etc. The present code adapts the two main functions of mathematical morphology (erosion and dilation) for direct use in point clouds.
+Morphological opening is a very useful technique for segmentation. In this work we have adapted morphological opening to point clouds, and we have improved the previous version by preserving the original points (and attributes) and not generating new data.
 
 ## Work
 
-The designed method is described in the article ****Mathematical morphology directly applied to point cloud data****.
+The designed method is described in the article ****Mathematical opening with input retrieval data****.
 
 Before applying the code, reading the paper is highly recommended.
 
-It is available in Open Access at this [link](https://doi.org/10.1016/j.isprsjprs.2020.08.011).
+It is available in Open Access at this [link](Pendiente).
 
 
 ## Application
-The code consists of two fundamental functions: erosion and dilation. Both functions require two input point clouds with only geospatial (XYZ) coordinates:
-* Point cloud input: composed of an Nx3 matrix, where N is the number of points. It is the objective point cloud of the dilatation or erosion process.
+The code consists of two fundamental functions: erosion followed by dilation. The first fuction (erosion) require two input point clouds: 
+* Point cloud input: composed of an NxA matrix, where N is the number of points and A the number of attributes, XYZ being the first three.
 * Point cloud strutcturing element: composed of an Nx3 matrix, where N is the number of points. It is the auxiliary point cloud that acts as a structuring element.
 
-The output is an eroded or dilated point cloud. The erosion and dilation functions can be combined to generate morphological openings and closings. In the example.m file, there is example code for using both functions.
+The output is a segmented point cloud.
 
 
 ## Citation
-Balado, J., Van Oosterom, P., Díaz-Vilariño, L., & Meijers, M. (2020). Mathematical morphology directly applied to point cloud data. ISPRS Journal of Photogrammetry and Remote Sensing, 168, 208-220.
+Pendiente
