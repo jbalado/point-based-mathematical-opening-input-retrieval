@@ -12,7 +12,7 @@ The designed method is described in the article ****Mathematical opening with in
 
 Before applying the code, reading the paper is highly recommended.
 
-It is available in Open Access at this [link](Pendiente).
+It is available in Open Access at this [link](https://doi.org/10.5194/isprs-annals-VIII-4-W2-2021-53-2021).
 
 
 ## Application
