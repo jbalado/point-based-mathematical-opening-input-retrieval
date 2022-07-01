@@ -24,4 +24,4 @@ The output is a segmented point cloud.
 
 
 ## Citation
-Pendiente
+Balado, J., Van Oosterom, P., Díaz-Vilariño, L., & Lorenzo, H. (2021). POINT-BASED MORPHOLOGICAL OPENING WITH INPUT DATA RETRIEVAL. ISPRS Annals of Photogrammetry, Remote Sensing & Spatial Information Sciences, 8.
